@@ -35,18 +35,14 @@
                     color: $white;
                     transform: scale(1, 1);
                     transition: all 0.5s;
-                    // background-color:$pink;
-                    /* Màu nền mặc định */
-                    // color: $white;
-                    /* Màu chữ */
-                    //transition: background-color 0.5s ease;
+        
 
                     &:hover {
                         background-color: $white;
                         border: 1px solid $pink;
                         color: $pink;
                         transition: transform 0.5s;
-                        //background-color: linear-gradient(circle at 50% 50%, $pink 100%, $white 0%);   
+                    ;   
                     }
 
                     i {
@@ -192,7 +188,7 @@
     }
 }
 
-//form-input
+
 .form-input {
     background: url(/assets/img/accent_bottom_wave_01.png);
     background-size: 100%;
@@ -234,7 +230,7 @@
                             position: absolute;
                             top: 13px;
                             left: 15px;
-                            color: #aa017e;
+                            color: $pink;
                         }
 
                         input {
@@ -350,7 +346,7 @@
 
                     &::after {
                         content: '';
-                        border-bottom: 1px solid #990171;
+                        border-bottom: 1px solid $pink;
                         width: 70px;
                         position: absolute;
                         bottom: 0px;
@@ -415,7 +411,7 @@
                 @include mText($text-title, 500, $dark);
 
                 &:hover {
-                    background-color: #aa017e;
+                    background-color: $pink;
                     transition: all 0.5s;
                 }
             }
