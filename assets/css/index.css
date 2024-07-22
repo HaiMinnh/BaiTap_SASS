@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -37,8 +36,6 @@
   color: white;
   transform: scale(1, 1);
   transition: all 0.5s;
-  /* Màu nền mặc định */
-  /* Màu chữ */
 }
 .header .container .menu .big-icon .number_phone:hover {
   background-color: white;
@@ -79,9 +76,6 @@
   font-weight: 700;
   color: #000;
 }
-.carousel .container .img {
-  animation-delay: 0.5s;
-}
 .carousel .container .img img {
   width: 90%;
 }
@@ -97,18 +91,6 @@
   background-color: #dcd1f0;
   position: relative;
   z-index: 1;
-}
-.intro .container .row .col-md-3 .move1 {
-  animation-delay: 0.5s;
-}
-.intro .container .row .col-md-3 .move2 {
-  animation-delay: 0.7s;
-}
-.intro .container .row .col-md-3 .move3 {
-  animation-delay: 0.8s;
-}
-.intro .container .row .col-md-3 .move4 {
-  animation-delay: 1.2s;
 }
 .intro .container .row .col-md-3 .card {
   margin-top: 30px;
@@ -142,6 +124,21 @@
   color: #000;
 }
 .intro .container .row .col-md-3 .card .card-footer p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+.intro .intro-img {
+  background: url(/assets/img/Wave_White_bottom_right_shape_01.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top center;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  bottom: -40px;
+  z-index: 0;
+}ter p {
   font-size: 16px;
   font-weight: 400;
   color: #000;
@@ -199,7 +196,7 @@
   position: absolute;
   top: 13px;
   left: 15px;
-  color: #aa017e;
+  color: #b61984;
 }
 .form-input .container .form-right form .form-container .group input {
   width: 170px;
@@ -305,7 +302,7 @@
 }
 .footer .container .big .item2 a::after {
   content: "";
-  border-bottom: 1px solid #990171;
+  border-bottom: 1px solid #b61984;
   width: 70px;
   position: absolute;
   bottom: 0px;
@@ -358,6 +355,6 @@
   color: #000;
 }
 .footer .container .letter .submit:hover {
-  background-color: #aa017e;
+  background-color: #b61984;
   transition: all 0.5s;
-}/*# sourceMappingURL=index.css.map */
+}
